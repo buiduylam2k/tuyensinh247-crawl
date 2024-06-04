@@ -1,0 +1,20 @@
+{
+  "name": "playwright-crawl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.0"
+  },
+  "scripts": {
+    "start": "playwright test --project chromium"
+  },
+  "dependencies": {
+    "@slate-serializers/html": "^2.1.6",
+    "json-2-csv": "^5.5.1",
+    "slate-html-serializer": "^0.8.13",
+    "slugify": "^1.6.6",
+    "yargs": "^17.7.2"
+  }
+}
